@@ -1,6 +1,14 @@
-img{
-    max-width: 100%;
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
 }
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
 .header-container {
     margin: 0 15px;
     margin-bottom: 10px;
@@ -30,35 +38,88 @@ header .vital {
     font-size: 24px;
     font-weight: 700;
 }
- 
+
 header .vibe {
     color: #2e8b57;
     font-size: 24px;
     font-weight: 700;
+} 
+.header .wrapper, nav ul{
+    display: flex;
 }
- 
+img {
+    max-width: 100%;
+    max-height: 10%;
+}
+body{ /*enlever l'enlever l'espace dans la marge */
+    margin: 0;
+}
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-}
- 
+} 
+
 nav ul li {
     margin-left: 20px;
-}
- 
+} 
+
 nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: 700;
     transition: color 0.3s;
 }
- 
+
 nav ul li a:hover {
     color: #6f4e37;
 }
+h1{
+    position: absolute;
+    top: 60px;
+    left: 32px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: black;
+}
+h4{
+    position: absolute;
+    top: 180px;
+    left: 40px;
 
+}
+
+.titre{
+    text-align: center;
+    text-transform: uppercase;
+}
+.temoignage h3{
+    color: #2e8b57;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+button{
+    color: white;
+    border-radius: 0px;
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+.wrapper> section{
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.wrapper> h3{
+    margin-bottom: 10px;
+}
 footer {
     background-color: #333;
     color: #fff;
