@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "open sans", sans-serif;
 }
+
 
 body {
     background: url('./images/Design\ sans\ titre.png')no-repeat;
@@ -13,10 +14,16 @@ body {
     background-position: center;
 }
 
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* HEADER début */
 .header-container {
     margin: 0 15px;
     margin-bottom: 10px;
-   
 }
 
 header {
@@ -26,8 +33,6 @@ header {
     background-color: #f2f2f2;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
-   
-
 }
 
 header .logo {
@@ -70,11 +75,11 @@ nav ul li a {
     transition: color 0.3s;
 }
 
-
 nav ul li a:hover {
     color: #6f4e37;
 }
 
+/*  HEADER fin */
 
 
 main {
@@ -208,26 +213,33 @@ form {
 
 .register-link p a {
     text-decoration: none;
-    
+
 }
 
 .register-link p a:hover {
     text-decoration: underline;
 }
-
+/* FOOTER début */
 footer {
     background-color: #333;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 50px;
     margin-top: 20px;
+    width: 100%;
+    background-image: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container-footer p {
     margin: 0;
     font-size: 16px;
-    color: #fff;
+    color:black;
 }
+
+
 
 .contact {
     display: flex;
@@ -240,39 +252,29 @@ footer {
 }
 
 .contact-item h3 {
-    color: #fff;
+    color: black;
     margin-bottom: 10px;
 }
 
 .contact-item p {
-    color: #fff;
+    color: black;
     margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
 }
 
 .social-icon {
     font-size: 24px;
     color: #2e8b57;
-    margin: 0 5px;
+    margin: 0 10px;
     transition: color 0.3s;
 }
 
 .social-icon:hover {
     color: #6f4e37;
 }
-
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #2e8b57;
-    color: #fff;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 50%;
-    font-size: 24px;
-    display: none;
-}
-
-.back-to-top:hover {
-    background-color: #6f4e37;
-}
+/* FOOTER fin */

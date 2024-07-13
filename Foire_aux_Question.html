@@ -12,108 +12,116 @@
 </head>
 
 <body>
-    <header class="header-container">
-        <div class="logo">
-            <img src="images/logo.png" alt="Logo VitalVibe" class="logo-image">
-            <span class="vital">Vital</span><span class="vibe">Vibe</span>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="Acceuil.html">Accueil</a></li>
-                <li><a href="Recette.html">Recettes</a></li>
-                <li><a href="about.html">À propos de nous</a></li>
-                <li><a href="Temoignage.html">Témoignages</a></li>
-                <li><a href="./Foire_aux_Question.html">FAQ</a></li>
-                <li><a href="./se_connecter.html">Inscription</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Foire Aux Questions</h1>
-        <div class="container">
-            <details class="details-summary">
-                <summary>Quel Le but de ce site web ?</summary>
-                Ce site à été créer pour aider les personnes cherchant des recommandations alimentaires pour prendre du
-                poid ou perdre poid.
-            </details>
-            <details class="details-summary">
-                <summary> D'où viens l'idées de créer ce site ?</summary>
-                cette idée à été proposé par une étudiante en programmation informatique dans le but d'offrir des
-                solutions à des personnes cherchant à ameliorer leur alimentation.
-            </details>
-            <details class="details-summary">
-                <summary>Que faire si j'ai des problèmes avec mon compte ?</summary>
-                Si vous rencontrez des problème à propos de votre compte veuillez remplir ce formulaire
-                <div class="contact">
-                    <form action="mailto:vitalvibe@gmail.com" method="post" enctype="text/plain">
-                        <div class="form">
-                            <label for="name">Nom</label><br>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div>
-                            <label for="email">Email</label><br>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div>
-                            <label for="message">Message</label><br>
-                            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-                        </div>
-                        <button type="submit"> Envoyer</button>
-                        <button type="reset">Réinitialiser</button>
-                    </form>
-
-                </div>
-            </details>
-            <details class="details-summary">
-                <summary>Comment protégez-vous mes informations personnelles ?</summary>
+    <div class="header-container">
+        <!-- HEADER début -->
+        <header class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo VitalVibe" class="logo-image">
+                <span class="vital">Vital</span><span class="vibe">Vibe</span>
+            </div>
+            <nav>
                 <ul>
-                    <li>Cryptage des données : Toutes les informations personnelles que vous nous fournissez sont cryptées à l'aide de technologies de pointe (comme le protocole SSL/TLS) lorsqu'elles sont transmises sur Internet. Cela garantit que vos données sont protégées contre les interceptions et les accès non autorisés pendant leur transfert.</li>
-                    <li>Stockage sécurisé : Vos informations sont stockées sur des serveurs sécurisés qui sont protégés par des pare-feu et des systèmes de détection d'intrusion. Nous appliquons des mesures de sécurité strictes pour empêcher tout accès non autorisé à nos systèmes.</li>
-                    <li>Accès restreint : L'accès à vos informations personnelles est strictement limité aux employés et prestataires de services qui ont besoin d'y accéder pour des raisons professionnelles. Ces personnes sont tenues de respecter la confidentialité de vos données et sont formées aux meilleures pratiques en matière de sécurité des informations.</li>
-                    <li>Mises à jour régulières : Nous effectuons régulièrement des mises à jour de nos systèmes et logiciels pour corriger les vulnérabilités et renforcer la sécurité de nos infrastructures.</li>
-                    <li>Conformité aux réglementations : Nous respectons les lois et réglementations en vigueur en matière de protection des données personnelles, notamment le Règlement Général sur la Protection des Données (RGPD) pour les utilisateurs résidant dans l'Union européenne. Nous mettons en œuvre des politiques et des procédures conformes à ces normes pour garantir la protection de vos informations.</li>
+                    <!-- Menu -->
+                    <li><a href="Acceuil.html">Accueil</a></li>
+                    <li><a href="Recette.html">Recettes</a></li>
+                    <li><a href="about.html">À propos de nous</a></li>
+                    <li><a href="Temoignage.html">Témoignages</a></li>
+                    <li><a href="./se_connecter.html">Inscription</a></li>
+                    <li><a href="ABONNEMENTS.html">Abonnements</a></li>
+                    <li><a href="./Foire_aux_Question.html">FAQ</a></li>
                 </ul>
-            </details>
-        </div>
-    </main>
+            </nav>
+        </header>
+    </div>
+        <main>
+            <h1>Foire Aux Questions</h1>
+            <div class="container-faq">
+                <details class="details-summary">
+                    <summary>Quel Le but de ce site web ?</summary>
+                    Ce site à été créer pour aider les personnes cherchant des recommandations alimentaires pour prendre
+                    du
+                    poid ou perdre poid.
+                </details>
+                <details class="details-summary">
+                    <summary> D'où viens l'idées de créer ce site ?</summary>
+                    cette idée à été proposé par une étudiante en programmation informatique dans le but d'offrir des
+                    solutions à des personnes cherchant à ameliorer leur alimentation.
+                </details>
+                <details class="details-summary">
+                    <summary>Que faire si j'ai des problèmes avec mon compte ?</summary>
+                    Si vous rencontrez des problème à propos de votre compte veuillez remplir ce formulaire
+                    <div class="contact">
+                        <form action="mailto:vitalvibe@gmail.com" method="post" enctype="text/plain">
+                            <div class="form">
+                                <label for="name">Nom</label><br>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div>
+                                <label for="email">Email</label><br>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div>
+                                <label for="message">Message</label><br>
+                                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+                            </div>
+                            <button type="submit"> Envoyer</button>
+                            <button type="reset">Réinitialiser</button>
+                        </form>
+
+                    </div>
+                </details>
+                <details class="details-summary">
+                    <summary>Comment protégez-vous mes informations personnelles ?</summary>
+                    <ul>
+                        <li>Cryptage des données : Toutes les informations personnelles que vous nous fournissez sont
+                            cryptées à l'aide de technologies de pointe (comme le protocole SSL/TLS) lorsqu'elles sont
+                            transmises sur Internet. Cela garantit que vos données sont protégées contre les
+                            interceptions et les accès non autorisés pendant leur transfert.</li>
+                        <li>Stockage sécurisé : Vos informations sont stockées sur des serveurs sécurisés qui sont
+                            protégés par des pare-feu et des systèmes de détection d'intrusion. Nous appliquons des
+                            mesures de sécurité strictes pour empêcher tout accès non autorisé à nos systèmes.</li>
+                        <li>Accès restreint : L'accès à vos informations personnelles est strictement limité aux
+                            employés et prestataires de services qui ont besoin d'y accéder pour des raisons
+                            professionnelles. Ces personnes sont tenues de respecter la confidentialité de vos données
+                            et sont formées aux meilleures pratiques en matière de sécurité des informations.</li>
+                        <li>Mises à jour régulières : Nous effectuons régulièrement des mises à jour de nos systèmes et
+                            logiciels pour corriger les vulnérabilités et renforcer la sécurité de nos infrastructures.
+                        </li>
+                        <li>Conformité aux réglementations : Nous respectons les lois et réglementations en vigueur en
+                            matière de protection des données personnelles, notamment le Règlement Général sur la
+                            Protection des Données (RGPD) pour les utilisateurs résidant dans l'Union européenne. Nous
+                            mettons en œuvre des politiques et des procédures conformes à ces normes pour garantir la
+                            protection de vos informations.</li>
+                    </ul>
+                </details>
+            </div>
+        </main>
+        <footer class="container-footer">
+            <h1>Contact nous</h1>
+            <div class="contact">
+                <div class="contact-item">
+                    <h3>VitalVibe</h3>
+                    <p>88, Rue Kent<br>Gatineau, Québec<br>J0A 1A0</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Nous joindre</h3>
+                    <p>514-892-6058<br>613-587-987</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Heures d'ouverture</h3>
+                    <p>Horaire pour la saison estival :<br>lundi au jeudi de 9h à 16h.<br>Fermé le vendredi.</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2024 VitalVibe. Tous droits réservés.</p>
+        </footer>
 </body>
-<footer class="container-footer">
-
-    <div class="contact-item">
-
-        <h3>VitalVibe</h3>
-
-        <p>88, chemin Pinacle<br>Danville, Québec<br>J0A 1A0</p>
-
-    </div>
-
-    <div class="contact-item">
-
-        <h3>Nous joindre</h3>
-
-        <p>1 800 567-2761<br>819 839-1091</p>
-
-    </div>
-
-    <div class="contact-item">
-
-        <h3>Heures d'ouverture</h3>
-
-        <p>Horaire pour la saison estival :<br>lundi au jeudi de 9h à 16h.<br>Fermé le
-            vendredi.</p>
-
-    </div>
-
-    <div class="contact-item">
-
-        <h3>Suivez-nous</h3>
-        <p>
-            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-            <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
-        </p>
-    </div>
-    <p>&copy; 2024 VitalVibe. Tous droits réservés.</p>
-</footer>
 </html>
