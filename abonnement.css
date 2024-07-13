@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+header .vital {
+    color: #6f4e37;
+    font-size: 24px;
+    font-weight: 700;
+}
+header .vibe {
+    color: #2e8b57;
+    font-size: 24px;
+    font-weight: 700;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+
+nav ul li a:hover {
+    color: #6f4e37;
+}
+
+
+.abonnement-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f2f2f2; 
+    background-image:url('./images/Design\ sans\ titre.png');
+}
+
+.abonnement-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    
+}
+
+.abonnement-card {
+    border-radius: 15px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    width: 250px; 
+    text-align: left; 
+    background-color: #f2f2f2; 
+}
+
+.abonnement-card h3 {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+}
+
+.abonnement-card h4 {
+    font-size: 18px; 
+    margin: 10px 0; 
+}
+
+.price {
+    font-size: 24px; 
+    color:yellowgreen; 
+    margin: 10px 0; 
+}
+
+.abonne-toi-btn {
+    display: inline-block; 
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: background-color 0.3s;
+}
+
+.abonne-toi-btn:hover {
+    background-color: #6f4e37;
+}
+.service {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding: 40px;
+    background-color: #f2f2f2; 
+    margin: 20px 0; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #333;
+    
+}
+
+
+
+.contact-item {
+    flex: 1;
+    padding: 10px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+}
+
+.contact-item h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #2e8b57;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
