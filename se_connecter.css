@@ -7,9 +7,8 @@
     font-family: "open sans", sans-serif;
 }
 
-
 body {
-    background: url('./images/Design\ sans\ titre.png')no-repeat;
+    background: url('./images/program.png');
     background-size: cover;
     background-position: center;
 }

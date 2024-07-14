@@ -84,7 +84,6 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    
     margin-top: 0;
     padding: 10px 10px 20px 20px;
 }
@@ -264,4 +263,5 @@ footer {
 .social-icon:hover {
     color: #6f4e37;
 }
+
 /* FOOTER fin */

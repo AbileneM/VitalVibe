@@ -1,9 +1,12 @@
-body {
-    font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
     margin: 0;
+    font-family: "lato", "Open Sans", sans-serif;
     padding: 0;
     background-color: #fafafa;
     color: #333;
+    
 }
 
 .container {
@@ -68,7 +71,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #6f4e37;
+    color:#2e8b57;
 }
 
 /*  HEADER fin */
@@ -94,7 +97,7 @@ nav ul li a:hover {
     margin: 20px 0;
 }
 
-.cta-button {
+.buttons {
     background-color: #2e8b57;
     color: #fff;
     padding: 15px 30px;
@@ -104,9 +107,7 @@ nav ul li a:hover {
     transition: background-color 0.3s;
     
 }
-
-
-.cta-button:hover {
+.buttons:hover {
     background-color: #6f4e37;
 }
 .features {
